@@ -1,11 +1,11 @@
 <template>
   <div id="footer">
     <section>
-      <p>
-        <a href="https://www.github.com/">Github</a>
-        <a :href="`mailto:${email}`">{{email}}</a>
-      </p>
-      <p class="copyright">{{name}} © {{new Date().getFullYear()}}</p>
+      <!-- <p> -->
+        <!-- <a href="https://www.github.com/">Github</a> -->
+        <!-- <a :href="`mailto:${email}`">{{email}}</a> -->
+      <!-- </p> -->
+      <!-- <p class="copyright">{{name}} © {{new Date().getFullYear()}}</p> -->
     </section>
   </div>
 </template>
@@ -15,8 +15,8 @@ export default Vue.extend({
   name: 'site-footer',
   data() {
     return {
-      name: 'My Name',
-      email: 'email@domain.com'
+      // name: 'Jared',
+      // email: 'email@domain.com'
     }
   }
 });
